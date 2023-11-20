@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  background: #020202;
+  cursor: crosshair;
+}
+
+canvas {
+  display: block;
+}
+
+h1, h2, h3, h4, button {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "Impact, Charcoal, sans-serif";
+  font-weight: 800;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+h1 {
+  top: 15%;
+  font-size: 5vw;
+  color: #F4F5F7;
+}
+
+h2 {
+  top: 25%;
+  font-size: 6vw;
+  color: rgb(253, 5, 158);
+}
+
+h3 {
+  top: 50%;
+  font-size: 2vw;
+  color: #fafafa;
+}
+
+h4 {
+  top: 75%;
+  font-size: 2vw;
+  color: #f80000;
+}
+
+button {
+  top: 85%;
+  font-size: 2vw;
+  color: #f80000;
+}
